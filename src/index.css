@@ -295,6 +295,7 @@ h1 {
     font-size: 1.25rem;
   }
   #meals {
+    width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr))
   }
 }
