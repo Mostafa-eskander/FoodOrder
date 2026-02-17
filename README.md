@@ -1,23 +1,24 @@
-# 🖤 Elegant Clothing
-Elegant Clothing is a modern and responsive fashion e-commerce web application built with React. It allows users to browse stylish clothing collections, explore product details, and enjoy a clean, elegant shopping experience.
+# 🍕 Food Order App
+Food Order App is a modern and responsive web application built with React. It allows users to browse meals, add items to their cart, and manage their food orders with a clean and interactive user interface. The app demonstrates modern React concepts such as component-based architecture and state management.
 
 ---
 
 ## ✨ Features
 
-- 🛍️ Browse clothing products with modern UI
+- 🍔 Browse available food items
+- 🛒 Add and remove items from cart
+- 🧮 Dynamic cart management
+- ⚡ Fast and responsive performance
 - 📱 Fully responsive design (mobile, tablet, desktop)
-- ⚡ Fast performance using modern React practices
-- 🎨 Elegant and clean user interface
-- 🔍 Product listing and structured layout
-- 🚀 Deployed using Vercel
+- 🎨 Clean and modern UI
 - 🧩 Component-based architecture
+- 🚀 Deployed using Vercel
 
 ---
 
 ## 🌐 Live Demo
 
-👉 **[View Live Project](https://elegant-clothing-black.vercel.app/)**
+👉 **[View Live Project](https://food-order-two-nu.vercel.app/)**
 
 ---
 
@@ -27,6 +28,8 @@ Elegant Clothing is a modern and responsive fashion e-commerce web application b
 - JavaScript (ES6+)
 - CSS / CSS Modules
 - HTML5
+- Vite – Build tool
+- React Context API – State management
 - Vercel – Deployment platform
 
 ---
@@ -34,7 +37,7 @@ Elegant Clothing is a modern and responsive fashion e-commerce web application b
 ## 📂 Project Structure
 
 ```
-Elegant-Clothing/
+FoodOrder/
 │
 ├── public/
 │
@@ -43,17 +46,19 @@ Elegant-Clothing/
 │   ├── components/
 │   │   ├── Cart.jsx
 │   │   ├── CartModal.jsx
+│   │   ├── MealItem.jsx
+│   │   ├── Meals.jsx
 │   │   └── Header.jsx
-│   │   └── Prodyct.jsx
-│   │   └── Shop.jsx
 │   │
 │   ├── store/
-│   │   ├── shoping -card-context.jsx
+│   │   └── cart-context.jsx
 │   │
-│   ├── App.js
-│   └── index.js
+│   ├── App.jsx
+│   └── main.jsx
 │
+├── index.html
 ├── package.json
+├── vite.config.js
 └── README.md
 ```
 
@@ -65,11 +70,11 @@ Follow these steps to run the project locally:
 
 1️⃣ Clone the repository
 ```
-git clone https://github.com/your-username/elegant-clothing.git
+git clone https://github.com/Mostafa-eskander/FoodOrder.git
 ```
 2️⃣ Navigate to project folder
 ```
-cd elegant-clothing
+cd FoodOrder
 ```
 3️⃣ Install dependencies
 ```
@@ -99,11 +104,11 @@ Then upload the dist folder to Vercel.
 
 ### 🎯 Future Improvements
 
-- 🛒 Add shopping cart functionality
-- ❤️ Add wishlist feature
-- 🔐 User authentication
-- 💳 Payment integration
-- 📦 Backend integration with database
+- 💳 Add checkout functionality
+- 🔐 Add authentication system
+- 🌐 Connect to backend API
+- ❤️ Add favorites feature
+- 📦 Store orders in database
 
 ---
 
